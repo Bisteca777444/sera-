@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIGREBET - Cassino Online</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://unpkg.com/@supabase/supabase-js"></script>
+</head>
+<body>
+  <div id="loading">Carregando...</div>
+  <header>
+    <h1>TIGREBET</h1>
+    <nav>
+      <button id="btn-login">Login</button>
+      <button id="btn-logout" style="display:none;">Sair</button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Bem-vindo ao TIGREBET</h2>
+      <p>O melhor cassino online, seguro e divertido!</p>
+      <button id="btn-jogar" style="display:none;">Jogar Agora</button>
+    </section>
+    <section id="area-apostas" style="display:none;">
+      <input id="input-nome" placeholder="Seu nome">
+      <input id="input-valor" type="number" placeholder="Valor da aposta">
+      <button id="btn-apostar">Apostar</button>
+      <ul id="lista-apostas"></ul>
+    </section>
+    <section id="bonus">
+      <h3>Bônus Exclusivos</h3>
+      <p>Cadastre-se e ganhe bônus de boas-vindas!</p>
+    </section>
+    <section id="jogo-responsavel">
+      <p><strong>Jogo Responsável:</strong> Aposte com consciência.</p>
+    </section>
+    <section id="termos">
+      <h4>Termos de Uso e Política de Privacidade</h4>
+      <p>Leia atentamente nossos termos e políticas.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 TIGREBET</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
