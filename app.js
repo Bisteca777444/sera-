@@ -1,3 +1,4 @@
+netlifyIdentity.init();
 // Configurar com suas credenciais Supabase
 const SUPABASE_URL = 'https://pbtnqebuvwpoeonuwbhb.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBidG5xZWJ1dndwb2VvbnV3YmhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxNDUyMjEsImV4cCI6MjA2NDcyMTIyMX0.gM9dC11OHRLKIK9X8YHBOD1vlqhCN8zetBAzlczHPPI';
